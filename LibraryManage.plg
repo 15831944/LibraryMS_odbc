@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LibraryManage - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\wizard\AppData\Local\Temp\RSPA1C6.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/LibraryManage.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\‘› ±Œﬁ”√\DBC\LibraryMS\LibraryManageDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\wizard\AppData\Local\Temp\RSPA1C6.tmp" 
+Creating temporary file "C:\Users\wizard\AppData\Local\Temp\RSPA1C7.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/LibraryManage.pdb" /debug /machine:I386 /out:"Debug/LibraryManage.exe" /pdbtype:sept 
+".\Debug\AdminLog.obj"
+".\Debug\AdminRS.obj"
+".\Debug\BookIn.obj"
+".\Debug\BookQuery.obj"
+".\Debug\BookRS.obj"
+".\Debug\Borrow.obj"
+".\Debug\BorrowRS.obj"
+".\Debug\CardManage.obj"
+".\Debug\CardRS.obj"
+".\Debug\LibraryManage.obj"
+".\Debug\LibraryManageDlg.obj"
+".\Debug\Manager.obj"
+".\Debug\Return.obj"
+".\Debug\ShowBook.obj"
+".\Debug\StdAfx.obj"
+".\Debug\LibraryManage.res"
+]
+Creating command line "link.exe @C:\Users\wizard\AppData\Local\Temp\RSPA1C7.tmp"
+<h3>Output Window</h3>
+Compiling...
+LibraryManageDlg.cpp
+Linking...
+Creating temporary file "C:\Users\wizard\AppData\Local\Temp\RSPA7B3.tmp" with contents
+[
+/nologo /o"Debug/LibraryManage.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\AdminLog.sbr"
+".\Debug\AdminRS.sbr"
+".\Debug\BookIn.sbr"
+".\Debug\BookQuery.sbr"
+".\Debug\BookRS.sbr"
+".\Debug\Borrow.sbr"
+".\Debug\BorrowRS.sbr"
+".\Debug\CardManage.sbr"
+".\Debug\CardRS.sbr"
+".\Debug\LibraryManage.sbr"
+".\Debug\LibraryManageDlg.sbr"
+".\Debug\Manager.sbr"
+".\Debug\Return.sbr"
+".\Debug\ShowBook.sbr"]
+Creating command line "bscmake.exe @C:\Users\wizard\AppData\Local\Temp\RSPA7B3.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+LibraryManage.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
